@@ -1,6 +1,88 @@
-.container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+*{
+  margin: 0;
+}
+div{
   border: 1px solid black;
+  font-family: 'Rajdhani', sans-serif;
+}
+/* HEADER */
+.nav {
+  display: flex;
+  background-color: #252525;
+  height: 10vh;
+  width: 100%;
+}
+.nav-logo {
+  width: 60%;
+}
+.nav-links {
+  display: flex;
+  color: white;
+  width: 40%;
+}
+.links-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+.links-item:last-child {
+  color: #FF0000;
+}
+
+/*MAIN*/
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 90%;
+}
+.item {
+  width: 50%;
+  height: 90vh;
+}
+.item:first-child {
+  width: 80%;
+}
+.presentation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 80vh;
+}
+.presentation-item {
+  width: 30%;
+  height: 50vh;
+}
+/*FOOTER*/
+.footer {
+  display: flex;
+  height: 20vh;
+  background-color: #252525;
+  color: white;
+}
+.footer-logo {
+  width: 20%;
+}
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+.links-foot {
+  width: 33.3%;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+.social-links {
+  width: 33.3%;
 }
