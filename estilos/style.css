@@ -34,12 +34,6 @@ div{
   -moz-transition: all ease 0.8s;
   transition: all ease 0.8s;
 }
-.links-item:nth-child(2){
-  background-image: url(../img/discord.png);
-  background-repeat: no-repeat;
-  background-size: 5.5rem;
-  background-position: center;
-}
 .links-item:last-child {
   color: #FF0000;
 }
@@ -59,6 +53,7 @@ div{
   display: flex;
   flex-wrap: nowrap;
   width: 90%;
+  background-color: #c41f1f;
 }
 .item {
   width: 50%;
@@ -73,6 +68,7 @@ div{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #c41f1f;
 }
 .presentation {
   display: flex;
@@ -80,6 +76,7 @@ div{
   align-items: center;
   width: 90%;
   height: 70vh;
+  background-color: #c41f1f;
 }
 .presentation-item {
   width: 30%;
@@ -88,6 +85,9 @@ div{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: white
+  ;
+  background-color: #252525;
 }
 .description {
   width: 90%;
@@ -113,6 +113,8 @@ div{
   display: flex;
   flex-direction: row;
   width: 40%;
+  justify-content: center;
+  align-items: center;
 }
 .links-foot {
   width: 33.3%;
@@ -121,6 +123,8 @@ div{
   display: flex;
   flex-direction: row;
   width: 40%;
+  justify-content: center;
+  align-items: center;
 }
 .social-links {
   width: 33.3%;
