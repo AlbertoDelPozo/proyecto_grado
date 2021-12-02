@@ -13,7 +13,11 @@ div{
   width: 100%;
 }
 .nav-logo {
-  width: 60%;
+  width: 60%; 
+  background-image: url(../img/cascos_alo.png);
+  background-repeat: no-repeat;
+  background-position: 15% 50%;
+  background-size: 5rem;
 }
 .nav-links {
   display: flex;
@@ -25,11 +29,25 @@ div{
   justify-content: center;
   align-items: center;
   width: 25%;
+  box-shadow: inset 0 0 0 0 #252525;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 0.8s;
+}
+.links-item:nth-child(2){
+  background-image: url(../img/discord.png);
+  background-repeat: no-repeat;
+  background-size: 5.5rem;
+  background-position: center;
 }
 .links-item:last-child {
   color: #FF0000;
 }
-
+.links-item:hover {
+  background-color: #FF0000;
+  color: #252525;
+  box-shadow: inset 0 100% 0 0 #FF0000;
+}
 /*MAIN*/
 .main {
   display: flex;
@@ -49,26 +67,47 @@ div{
 .item:first-child {
   width: 80%;
 }
+.title {
+  height: 10vh;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .presentation {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 90%;
-  height: 80vh;
+  height: 70vh;
 }
 .presentation-item {
   width: 30%;
   height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.description {
+  width: 90%;
 }
 /*FOOTER*/
 .footer {
   display: flex;
   height: 20vh;
-  background-color: #252525;
+  background-color: #414141;
   color: white;
 }
 .footer-logo {
   width: 20%;
+  background-image: url(../img/cascos_alo.png);
+  background-position: 25%;
+  background-size: 10rem;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 .footer-links {
   display: flex;
