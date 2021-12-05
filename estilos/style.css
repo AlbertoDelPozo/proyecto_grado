@@ -121,6 +121,9 @@ div{
   justify-content: center;
   align-items: center;
 }
+.links-foot:hover {
+  color: #FF0000;
+}
 .social {
   display: flex;
   flex-direction: row;
