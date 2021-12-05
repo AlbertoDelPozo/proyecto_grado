@@ -2,7 +2,6 @@
   margin: 0;
 }
 div{
-  border: 1px solid black;
   font-family: 'Rajdhani', sans-serif;
 }
 /* HEADER */
@@ -118,6 +117,9 @@ div{
 }
 .links-foot {
   width: 33.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .social {
   display: flex;
@@ -128,4 +130,7 @@ div{
 }
 .social-links {
   width: 33.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
