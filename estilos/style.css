@@ -55,11 +55,28 @@ div{
   background-color: #c41f1f;
 }
 .item {
-  width: 50%;
+  width: 30%;
   height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 .item:first-child {
   width: 80%;
+}
+.item:nth-child(2) {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.item:nth-child(2) > h1 {
+  border-bottom: white 1px solid;
+}
+.item:nth-child(2) > p {
+  font-size: 1.5rem;
 }
 .title {
   height: 10vh;
