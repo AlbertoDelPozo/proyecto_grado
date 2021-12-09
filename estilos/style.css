@@ -102,6 +102,25 @@ a {
     margin-right: 1rem;
 }
 
+
+/* Gallery */
+
+.gallery {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.championships {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .title {
     height: 10vh;
     width: 90%;
