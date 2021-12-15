@@ -117,7 +117,7 @@ a {
     height: 90vh;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -148,10 +148,64 @@ a {
     justify-content: center;
     color: white;
     background-color: #252525;
+    border-radius: 10px;
 }
 
 .description {
     width: 90%;
+}
+
+
+/* CHAMPIONSHIP */
+
+.champ {
+    padding: 2rem;
+    width: 25%;
+    height: 70%;
+    background-color: #252525;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.img1 {
+    width: 90%;
+    height: 40%;
+    background-image: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img2 {
+    width: 90%;
+    height: 40%;
+    background-image: url(../img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.join {
+    height: 10%;
+    width: 40%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF0000;
+    box-shadow: inset 0 0 0 0 #FF0000;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+
+.join:hover {
+    background-color: #ffffff;
+    color: #FF0000;
+    box-shadow: inset 0 100% 0 0 #FF0000;
+    font-weight: bold;
 }
 
 
