@@ -1,4 +1,4 @@
-# proyecto_grado 💻
+# Proyecto Fin Grado 💻
 
 Proyecto de fin de grado de Desarrollo de aplicaciones web en Bilingüe
 
