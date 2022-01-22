@@ -13,7 +13,7 @@ Se trata de una página web para participar en campeonatos de Assetto Corsa Comp
 
 ## Construido con 🛠
 
-* [Visual Strudio](https://code.visualstudio.com) - Entorno de desarrollo utilizado
+* [Visual Studio](https://code.visualstudio.com) - Entorno de desarrollo utilizado
 * [FontAwesome](https://fontawesome.com) - Iconos utilizados
 
 ### Lenguajes usados 👨🏻‍💻
